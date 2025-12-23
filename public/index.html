@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mis Tareas</h1>
+        </header>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="¿Qué necesitas hacer hoy?" autocomplete="off">
+            <button id="addBtn">Agregar</button>
+        </div>
+
+        <ul id="taskList">
+            </ul>
+        
+        <p class="status" id="statusMsg">Cargando tareas...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
